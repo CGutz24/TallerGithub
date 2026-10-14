@@ -1,0 +1,39 @@
+carlo@Carlos MINGW64 ~/OneDrive/Escritorio/TallerGithub (main)
+$ git add .
+
+carlo@Carlos MINGW64 ~/OneDrive/Escritorio/TallerGithub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   hola.txt
+
+
+carlo@Carlos MINGW64 ~/OneDrive/Escritorio/TallerGithub (main)
+$ git commit -m "Se agrego un archivo .txt"
+[main 51fb10d] Se agrego un archivo .txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hola.txt
+
+carlo@Carlos MINGW64 ~/OneDrive/Escritorio/TallerGithub (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+carlo@Carlos MINGW64 ~/OneDrive/Escritorio/TallerGithub (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 143.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/CGutz24/TallerGithub.git
+   ad2211b..51fb10d  main -> main
+
+carlo@Carlos MINGW64 ~/OneDrive/Escritorio/TallerGithub (main)
